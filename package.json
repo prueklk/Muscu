@@ -1,0 +1,33 @@
+{
+  "name": "Muscu",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "firebase": "^3.6.1",
+    "lodash": "^4.17.2",
+    "react": "15.4.1",
+    "react-native": "0.38.0",
+    "react-native-check-box": "^1.0.2",
+    "react-native-hyperlink": "0.0.7",
+    "react-native-router-flux": "^3.35.0",
+    "react-native-swiper": "^1.5.4",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "eslint-config-rallycoding": "^3.1.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1"
+  }
+}
